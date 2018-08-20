@@ -1,0 +1,11 @@
+<h1>Profile#index</h1>
+<p>Find me in app/views/profile/index.html.erb</p>
+
+<table>
+    <% @users.each do |user|%>
+    <tr>
+        <td><%= user.uid %></td>
+        <td><%= user.email %></td>
+    </tr>
+    <% end %>
+</table>
